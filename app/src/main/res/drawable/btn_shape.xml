@@ -3,9 +3,13 @@
 
     <item android:state_enabled="true">
         <shape>
-            <solid android:color="#FFC002">
+            <solid android:color="#ffffff">
 
             </solid>
+
+            <stroke
+                android:width="5dp"
+                android:color="#FDC827" />
 
             <corners android:radius="20dp">
 

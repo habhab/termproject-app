@@ -10,14 +10,14 @@
 
     <TextView
         android:layout_width="200dp"
-        android:layout_height="130dp"
+        android:layout_height="100dp"
         android:layout_gravity="center" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="하필투"
+        android:text="How are you today?"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -28,7 +28,7 @@
 
     <TextView
         android:layout_width="200dp"
-        android:layout_height="40dp"
+        android:layout_height="45dp"
         android:layout_gravity="center" />
 
     <ImageView
@@ -44,10 +44,15 @@
 
     <EditText
         android:id="@+id/et_id"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
         android:layout_gravity="center"
-        android:hint="name" />
+        android:hint="   닉네임을 입력하시오   " />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center" />
 
     <Button
         android:id="@+id/btn_move"
