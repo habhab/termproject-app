@@ -21,7 +21,7 @@ public class SubActivity extends AppCompatActivity {
         btn_move1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SubActivity.this, SubActivity.class);
+                Intent intent = new Intent(SubActivity.this, SubActivity2.class);
                 startActivity(intent); // 액티비티 이동
             }
         });
